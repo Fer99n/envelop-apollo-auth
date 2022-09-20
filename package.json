@@ -1,0 +1,18 @@
+{
+    "name": "envelop-apollo-auth",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Ferdinando Nocera <nocera.ferdinando@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "@envelop/core": "^2.6.0",
+        "@envelop/operation-field-permissions": "^3.6.0",
+        "@graphql-tools/schema": "^9.0.4",
+        "apollo-server": "^3.10.2"
+    }
+}
